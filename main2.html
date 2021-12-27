@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Demo styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+         background-color: rgb(36,45,62);
+        padding: 0; margin: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        background-color: rgb(36,45,62);
+            background-image: url(background.jpg);
+            background-repeat: repeat;
+            background-position: center;
+            
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .swiper-v {
+        background: rgb(36,45,62);
+      }
+      h1{font-family: "open sans";
+        font-size: 50px;}
+        h2{font-family: "open sans";}
+    </style>
+  </head>
+
+  <body>
+    <!-- Swiper -->
+
+    <div class="swiper mySwiper swiper-h">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="swiper mySwiper2 swiper-v">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><h1>Обзоры игр</h1></div>
+              <div class="swiper-slide"><h1>ArmaIII<p></p>Оценка: 6/10</h1><h2>Arma III - хардкорный шутер с уклоном в реализм. Эта игра - симулятор военных действий на разных территориях. 
+                Она интересна своим реализмом, но есть проблемы. Игра понравится не каждому, не каждого затянет. Лично меня игра не затянула по двум причинам: 
+                1) Игра работала в 30 - 50 fps в лучшем случае на минимальных настройках, это конечно играбельно, но не очень приятно. 2) Эта игра
+                 очень недоброжелательна к новичкам, порог вхождения очень высок.</h2></div>
+              <div class="swiper-slide"><h1>Bioshock Infinite<p></p>Оценка: 9/10</h1><h2>Bioshock Infinite - прекрасный сюжетный шутер от первого лица. 
+                  Игра обладает прекрасным сюжетом, проработанным игровым миром и лором. Также в ней довольно интересный геймплей. По моему мнению эта игра - 
+                  лучшая часть серии Bioshock.</h2>
+              </h2></div>
+              <div class="swiper-slide"><h1>Black mesa<p></p>Оценка: 7/10</h1><h2>Black mesa - ремейк half life 1 с обновлённой графикой. Это всё, что можно 
+                  сказать о самой Black mesa.</h2>
+              </h2></div>
+              <div class="swiper-slide"><h1>Dirt Rally 2.0<p></p>Оценка 9/10</h1><h2>Dirt Rally 2.0 - симулятор ралли, чтобы полностью понять его вам потребуется руль с педалями. 
+                  Игра довольно требовательная к производительности. </h2>
+              </h2></div>
+              <div class="swiper-slide">пусто</div>
+              <div class="swiper-slide">пусто</div>
+              <div class="swiper-slide">пусто</div>
+              <div class="swiper-slide">пусто</div>
+              <div class="swiper-slide">пусто</div>
+              <div class="swiper-slide">пусто</div>
+              <div class="swiper-slide">пусто</div>
+              <div class="swiper-slide">пусто</div>
+              <div class="swiper-slide">пусто</div>
+              <div class="swiper-slide">пусто</div>
+              <div class="swiper-slide">пусто</div>
+              <div class="swiper-slide">пусто</div>
+              <div class="swiper-slide">пусто</div>
+              <div class="swiper-slide">пусто</div>
+              <div class="swiper-slide">iv>
+          </div>
+        </div>
+        <div class="swiper-slide"><h1>Характерипусто</div>
+              <div class="swiper-slide">пусто</div>
+              <div class="swiper-slide">пусто</div>
+              <div class="swiper-slide">пусто</div>
+            </div>
+            <div class="swiper-pagination"></dстики ПК</h1>
+        <h2>Процессор: Intel Core i5 7300HQ<p></p>
+        Память: RAM 16gb, SSD 256gb + HDD 2tb<p></p>
+        Видеокарта: NVIDIA GeForce GTX 1050 2 ГБ<p></p>
+        Lenovo Legion Y520</h2></div>
+        <div class="swiper-slide"><h1>О сайте</h1><h2>Этот сайт - сбор моего личного мнения об играх в виде обзоров.</h2></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 50,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+      var swiper2 = new Swiper(".mySwiper2", {
+        direction: "vertical",
+        spaceBetween: 50,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>
